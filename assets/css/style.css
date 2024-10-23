@@ -1,0 +1,325 @@
+:root {
+  --primary-color: #057590;
+  --secondary-color: #9ecc3b;
+  --padding-size: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(72, 173, 72) !important;
+}
+
+.material-symbols-outlined {
+  margin-right: 20px;
+  cursor: pointer;
+  color: white;
+}
+.change-page{
+    font-family: sans-serif !important;
+    font-size: 1rem !important;
+}
+
+.contact {
+  border: none;
+  padding-right: 15px;
+  border-radius: 50px;
+  align-items: center;
+
+  display: flex;
+  width: 150px !important;
+  background-color: rgb(58, 192, 195);
+  color: white;
+  justify-content: center;
+  
+  
+}
+.contact-page{
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    width: 150px !important;
+    background-color: rgb(58, 192, 195);
+    color: white;
+    justify-content:space-between;
+    padding-left: 10px !important;
+}
+.phone {
+  margin-right: 15px !important;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(5, 117, 144);
+  width: 40px;
+  padding: 10px;
+}
+.phone-page{
+    margin-right: 0px !important;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(5, 117, 144);
+    width: 40px;
+    padding: 10px;
+    
+}
+.navbar {
+  padding: 0px;
+  height: 50px;
+  background-color: rgb(58,192,195);
+}
+
+.mybtn {
+  border-radius: 0px;
+  height: 50px;
+  background-color: rgb(5,117,144);
+  color: white;
+}
+
+.mynavbar {
+  /* position: sticky; */
+  background-color: white;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  transition: all 1s ease-in-out;
+
+}
+
+.logo-nav{
+    width: 200px;
+
+}
+
+.sec-navbar{
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.third-navbar {
+    background-color: rgb(5,117,144);
+    }
+    
+ 
+    .third-navbar a{
+    color: white !important;
+}
+    
+.mybody{
+    background-color: rgb(246,243,238);
+}
+.mybody button{
+    color: rgb(176,156,153) !important;
+}
+  
+.subject-body{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 20px;
+  
+}
+
+
+
+.footer-email {
+    position: relative;
+    padding-bottom: 8px !important;
+}
+
+.email-input {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 2px 8px;
+    background-color: rgb(58,192,195);
+    height: 40px;
+    border-color: aliceblue;
+}
+
+.email-btn {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    border-radius: 2px;
+    height: 38px;
+    border: none;
+    background-color: rgb(5, 117, 144);
+    color: white;
+}
+
+.footer-emailPage{
+  position: relative;
+  padding-bottom: 8px !important;
+
+}
+.email-inputPage{
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 2px 8px;
+  background-color: rgb(58,192,195);
+  height: 40px;
+  border-color: aliceblue;
+  
+}
+.email-btnPage{
+
+  position: absolute;
+    left: 1px;
+    top: 1px;
+    border-radius: 2px;
+    height: 38px;
+    border: none;
+    background-color: rgb(5, 117, 144);
+    color: white;
+}
+
+
+
+.accordion-button {
+  border-radius: 10px !important;
+  font-weight: bold;
+  height: 70px !important;
+  border-left: rgb(58, 194, 198) solid;
+  border-left-width: 7px !important;
+ 
+}
+
+.accordion-item {
+  border-radius: 10px !important;
+  
+  padding: 5px;
+  background-color: rgb(246, 243, 238);
+  border: none;
+}
+.card-img-top {
+  height: 400px !important;
+}
+.card {
+  margin-bottom: 20px !important;
+}
+
+
+h6 {
+  color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none !important;
+}
+
+.mo {
+  margin: 22pxx;
+}
+
+.mycard {
+  min-width: 250px;
+  overflow: hidden;
+}
+
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.myname {
+  color: red;
+  font-size: large;
+  font-weight: bold;
+}
+
+.myfooter{
+    background-color: rgb(58,192,195);
+    color: white;
+    text-align:left;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.myfooter-page{
+  background-color: rgb(58,192,195);
+  color: white;
+  text-align:left;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+.footer-lift{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.footer-lift p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.footer-right{
+    margin-top: 50px;
+    text-align: left;
+    font-weight: bold;
+}
+.footer-right-page{
+  margin-top: 50px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.footer-right h6{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.footer-midd{
+    margin-top: 50px;
+    font-weight: bold;
+}
+.footer-midd h2 {
+    margin-bottom: 30px;
+}
+.footer-midd h6{
+    margin-bottom: 30px;
+}
+.footer-end{
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.footer-end h6{
+    margin-bottom: 30px;
+}
+.footer-end p{
+    font-size: x-small;
+}
+.footer-text{
+    background-color: rgb(5,117,144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+}
+.footer-text p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.fix-navbar {
+  background-color: white;
+  transition: all 1s ease-in-out;
+}
+
+.mytop {
+  position: fixed;
+  top: 0;
+  
+}
+
+.wd80 {
+  width: 80%;
+}
